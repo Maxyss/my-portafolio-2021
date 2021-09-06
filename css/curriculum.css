@@ -174,10 +174,10 @@ body {
     }
 
     
-    @media all and (max-width: 400px) {
+    @media all and (max-width: 500px) {
 
         .footbtn{
-            margin: 0% 0% 0% 65%;  
+            margin: 0% 0% 0% 70%;  
         }
 
 
