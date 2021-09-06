@@ -113,7 +113,7 @@ body {
 .footbtn{
     margin: 0% 0% 0% 85%;    
     --def: #ffffff; 	
-	--inv: rgb(0, 0, 0); 
+	--inv: #000000; 
 	display: inline-block;
 	justify-content: right;	
 	align-items: center;
@@ -143,7 +143,12 @@ body {
     
 /*responsive*/
         
-    @media all and (max-width: 750px){
+    @media all and (max-width: 800px){
+
+        .footbtn{
+            margin: 0% 0% 0% 80%;  
+        }
+
         header{
             flex-flow: column;
         }
@@ -168,6 +173,18 @@ body {
     flex-flow: column;
     }
 
+    
+    @media all and (max-width: 400px) {
+
+        .footbtn{
+            margin: 0% 0% 0% 65%;  
+        }
+
+
+        h1{
+         font-size: 150%;
+        }
+     }
     
  
     .main > article, .main > nav, header > .face, header > .banner {
@@ -194,11 +211,4 @@ body {
     }   
    }
 
-   @media all and (max-width: 400px) {
-
-    
-
-       h1{
-        font-size: 150%;
-       }
-    }
+   
