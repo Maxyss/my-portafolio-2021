@@ -185,7 +185,13 @@ body {
          font-size: 150%;
         }
      }
-    
+     @media all and (max-width: 350px) {
+
+        .footbtn{
+            margin: 0% 0% 0% 60%;  
+        }
+
+     }
  
     .main > article, .main > nav, header > .face, header > .banner {
      
