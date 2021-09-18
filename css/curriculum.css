@@ -38,9 +38,14 @@ body {
     padding:0% 2% 0% 2%;    
    }
 
-   P,li {       
+   P,li {     
+       display: ; 
        color: #373541;
        padding:0% 6% 0% 6%;
+   }
+
+   lu{
+       list-style: none;
    }
 
 .foot{
