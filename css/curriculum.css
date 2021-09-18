@@ -1,6 +1,5 @@
 body {
-   
-    font: 24px sans-serif;   
+   font: 24px sans-serif;   
    }
 
    a{
@@ -45,15 +44,15 @@ body {
    }
 
 .foot{
+    display: flex;
     padding: 3% 20% 0% 0%;
-
     margin-top: -8px;
     position: fixed;
     width: 100%;
-    height: 100px;
+    height: 90px;
     background-color: #fcdb00;	
  }
-   
+ 
    header {   
     padding-top: 100px;
     display:flex;
@@ -143,7 +142,7 @@ body {
     
 /*responsive*/
         
-    @media all and (max-width: 800px){
+@media all and (max-width: 800px){
 
         .footbtn{
             margin: 0% 0% 0% 80%;  
@@ -156,10 +155,10 @@ body {
         h1{
             font-size: 240%;
         }
-    }   
+}   
  
   
-   @media all and (max-width: 640px) { 
+@media all and (max-width: 640px) { 
 
     article {
         background-color: #d1d8d5;
@@ -171,29 +170,33 @@ body {
  
     .main, #page {
     flex-flow: column;
-    }
+}
 
     
-    @media all and (max-width: 500px) {
+@media all and (max-width: 500px) {
 
         .footbtn{
-            margin: 0% 0% 0% 70%;  
+            margin: 0% 0% 0% 60%;  
         }
 
 
         h1{
          font-size: 150%;
         }
-     }
-     @media all and (max-width: 350px) {
+}
+     
+@media all and (max-width: 350px) {
+        html{
+            display: flex;
+        }
 
         .footbtn{
             margin: 0% 0% 0% 60%;  
         }
 
-     }
+}
  
-    .main > article, .main > nav, header > .face, header > .banner {
+.main > article, .main > nav, header > .face, header > .banner {
      
         /* Return them to document order */
      order: 0;
@@ -213,8 +216,12 @@ body {
     }
 
     h1{
-        font-size: 230%;
+        font-size: 12vw;
     }   
-   }
+    h3{
+        font-size: 8vw;
+        
+    }
+}
 
    

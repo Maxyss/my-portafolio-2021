@@ -1,19 +1,4 @@
-/*!
- * Bootstrap v3.3.5 (http://getbootstrap.com)
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 
-/*!
- * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=2a37d6c68239add2227fbb84aca48eff)
- * Config saved to config.json and https://gist.github.com/2a37d6c68239add2227fbb84aca48eff
- */
-/*!
- * Bootstrap v3.3.6 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -123,6 +108,8 @@ input,
 optgroup,
 select,
 textarea {
+  max-width: 100%;
+  max-height: 100vh;
   color: inherit;
   font: inherit;
   margin: 0;
