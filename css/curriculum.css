@@ -115,7 +115,7 @@ body {
 /*boton*/
 
 .footbtn{
-    margin: 0% 0% 0% 85%;    
+    margin: 0% 0% 0% 90%;    
     --def: #ffffff; 	
 	--inv: #000000; 
 	display: inline-block;
@@ -181,7 +181,7 @@ body {
 @media all and (max-width: 500px) {
 
         .footbtn{
-            margin: 0% 0% 0% 60%;  
+            margin: 0% 0% 0% 65%;  
         }
 
 
