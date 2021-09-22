@@ -161,9 +161,9 @@ nav ul li a:hover {
 	transition: all 0.5s;
 }
 #banner a i{color:#000; font-size:34px;}
-#features{padding:110px 0;}
-#features h3{font-size:22px; line-height:24px; font-weight:700; color:#010101;}
-#features i{font-size:50px; text-align:center; display:block; color:#010101;}
+#aptitudes{padding:110px 0;}
+#aptitudes h3{font-size:22px; line-height:24px; font-weight:700; color:#010101;}
+#aptitudes i{font-size:50px; text-align:center; display:block; color:#010101;}
 #bottom p{padding:13px 0 80px;}
 
 #pricing{padding:40px 0 150px; text-align:center;}
@@ -227,10 +227,10 @@ font-size:18px;
 #team article a i:hover{color:#fcdb00; transition:all 0.5s;}
 #states article h3{ font-size:24px;color:#010101; font-weight:700; line-height:24px; text-align:center; margin-top:15px;}
 #states article p{text-align:center; padding-bottom:10px; font-size:14px;}
-#testimonilas{text-align:center; margin-bottom:200px;}
-#testimonilas h3{font-size:22px; margin-top:10px; color:#010101; margin-bottom:5px;}
-#testimonilas span{display:block; margin-bottom:25px;}
-#testimonilas p{display:inline-block; font-size:20px; color:#898989;}
+#sobremi{text-align:center; margin-bottom:200px;}
+#sobremi h3{font-size:22px; margin-top:10px; color:#010101; margin-bottom:5px;}
+#sobremi span{display:block; margin-bottom:25px;}
+#sobremi p{display:inline-block; font-size:20px; color:#898989;}
 i.onemore {
     text-align: left;
     position: relative;
