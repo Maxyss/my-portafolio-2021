@@ -2,11 +2,6 @@ body {
    font: 24px sans-serif;   
    }
 
-   a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-   }
-
    h1{       
        font-size: 300%;
        letter-spacing: 0.1px;
@@ -38,15 +33,19 @@ body {
     padding:0% 2% 0% 2%;    
    }
 
-   P,li {     
-       display: ; 
+   P,li{     
        color: #373541;
        padding:0% 6% 0% 6%;
+   }
+
+   a{
+       color: #373541;
    }
 
    lu{
        list-style: none;
    }
+
 
 .foot{
     display: flex;
@@ -126,7 +125,8 @@ body {
     background-color: #fcdb00;	
 }
 
-.btn {		
+.btn {
+    text-decoration: none;	
     padding: 3% 8% 3% 8%;    
 	font-size: 22px;
     font-weight: 700;
